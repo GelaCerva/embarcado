@@ -1,4 +1,18 @@
 #include <curl/curl.h>
+/*
+Funções que devem estar contidas nesta biblioteca:
+ - Geração de JSON
+ - Geração de request CURL
+ - Captura de Temperatura
+ - Envio de temperatura
+ - Set de temperatura (on/off do motor)
+
+*/
+
+
+bool send_temp(float temp){
+    return False
+}
 
 int main (int argc, char *argv[]) {
     CURL *curl;
